@@ -1,0 +1,335 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Kanit:wght@500&display=swap');
+
+  
+
+body {
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Kanit', sans-serif;
+    margin: 0;  
+    padding: 0;
+    background-color: #ffffff; /* Naranja */
+    color: #000000; /* Azul Marino */
+    background-image: url('css/pngtree-orange-navy-liquid-picture-image_1598174.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-image: url('imas/text.jpg'); /* Fondo semitransparente para legibilidad */
+    background-size: cover;
+}
+
+.container-button {
+    width: 15%;
+    margin: 20 auto;
+    padding: 0px;
+    text-align:left;
+    background-image: url('imas/text.jpg'); /* Fondo semitransparente para legibilidad */
+    background-size: cover;
+}
+
+p{
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff; /* Azul Marino */
+}
+
+h1{
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Kanit', sans-serif;
+    color: #000000;
+    font-size: 36px;
+    font-weight: bold;
+
+    }
+
+.slogan {
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Kanit', sans-serif;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+form {
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label, input, textarea {
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Kanit', sans-serif;
+    margin: 10px;
+    font-size: 18px;
+}
+
+input, textarea {
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Kanit', sans-serif;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Kanit', sans-serif;
+    background-color: #1a237e; /* Azul Marino */
+    color: #f39c12; /* Naranja */
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Kanit', sans-serif;
+    background-color: #1e88e5; /* Azul Claro */
+}
+
+.animated-button {
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Kanit', sans-serif;
+    display: inline-block;
+    background-color: #1a237e; /* Azul Marino */
+    color: #f39c12; /* Naranja */
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 30px;
+    border: 2px solid #f39c12; /* Naranja */
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    transition: background-color 0.3s ease;
+    
+}
+
+
+
+.animated-button::before {
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Kanit', sans-serif;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #f39c12; /* Naranja */
+    transition: left 0.3s ease;
+}
+
+.animated-button:hover::before {
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Kanit', sans-serif;
+    left: 0;
+}
+
+.animated-button:hover {
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Kanit', sans-serif;
+    background-color: #1e88e5; /* Azul Claro */
+    color: #f39c12; /* Naranja */
+}
+
+.animated-button:active {
+    transform: translateY(2px);
+}
+
+.logo img {
+    max-width: 100%;
+    height: 450px;
+  }
+
+
+
+.carousel-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Ajusta la altura según tus necesidades */
+  }
+  
+  .container-logo {
+    position: relative;
+    text-align: center;
+    padding: 50px; /* Ajusta el espaciado interno según tus necesidades */
+    background-image: url('imas/text.jpg'); /* Ruta de la imagen transparente */
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+    background-repeat: no-repeat;
+    background-position: center center;
+  }    
+
+  .bg-body-tertiary {
+    background-color: navy; /* Cambia 'navy' al color azul marino deseado */
+  }
+
+  .selector1 {
+    background-image: url('imas/Fondo.png');
+    background-size: cover;
+    text-align: center;
+    background-position: center center;
+    position: relative;
+    
+    /* Estilos de borde */
+    border: 2px solid #000; /* Ancho de borde y color */
+    border-radius: 10px; /* Radio de los bordes */
+    
+    /* Otros estilos de fondo o elementos visuales */
+  }
+
+  .cliente {
+    text-align: center;
+
+  }
+
+  .body1 {
+    text-align: center;
+    background-color: #f9f9f9;
+    
+  }
+
+  .body2 {
+  
+    text-align: center;
+    background-color:#f9f9f9 ;
+  }
+
+  .body3 {
+    text-align: center;
+  }
+
+  .center{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Ajusta el margen superior según tus necesidades */
+}
+
+
+.carousel-section-2 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carousel-inner .carousel-item img {
+  width: 100%; /* Ajusta el tamaño de las imágenes del carrusel */
+  height: 450px;
+  border-radius: 15px;
+  transition: opacity 0.5s ease;
+} 
+.carousel-inner .carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px; 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)); /* Cambia los valores de los colores y opacidad según lo desees */
+}
+
+/* Estilos generales del footer */
+.footer {
+  background-color: #0F1334;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer__logo img {
+  max-width: 150px;
+}
+
+.footer__contact,
+.footer__social {
+  flex: 1;
+  max-width: 300px;
+  margin: 0 20px;
+}
+
+/* Estilos de iconos */
+.footer__contact i,
+.footer__social a i {
+  margin-right: 10px;
+}
+
+/* Estilos de enlaces sociales */
+.footer__social a {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+
+.footer__social a:hover {
+  color: #ff9900;
+}
+
+/* Estilos del copyright */
+.footer__copyright {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilos de fuente de íconos */
+.fa {
+  font-size: inherit;
+}
+
+/* Estilos generales de enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Estilos para iconos de fuentes (FontAwesome) */
+/* Asegúrate de incluir la fuente FontAwesome en tu proyecto para que los iconos se muestren correctamente */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+
+/* Estilos del título de Contacto con ícono */
+.footer__contact h3,
+.footer__social h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos de íconos en el título */
+.footer__contact h3 i,
+.footer__social h3 i {
+    margin-right: 10px;
+}
+
+/* Estilos de enlaces sociales */
+/* ... (otros estilos) ... */
